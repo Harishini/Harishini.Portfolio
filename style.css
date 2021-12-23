@@ -106,7 +106,7 @@ h6 { font-size: 16px;}
 }
 
 
-<!--.nav-wrapper{
+.nav-wrapper{
 	border-radius:5px 5px 0 0;
 	grid-area:nav-wrapper;
 	border-bottom: 1px solid var(--borderColor);
@@ -116,43 +116,6 @@ h6 { font-size: 16px;}
 	background-color: var(--mainColor);
 }
 
-#navigation a{
-	color:var(--mainText);
-}
-
-
-#navigation{
-	margin:0;
-	padding: 10px;
-}
-
-#navigation li{
-	display: inline-block;
-	margin-right: 5px;
-	margin-left:5px;
-}
-
-#navigation a {
-  float: right;
-  display: block;
-  color: black;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-        }
-
-/* Change the color of links on hover */
-#navigation a:hover {
-  background-color: #ddd;
-  color: black;
-      }
-
-/* Add an active class to highlight the current page */
-#navigation a.active {
-  background-color: #04AA6D;
-  color: white;
-      }-->
 
 .topnav {
   background-color: #333;

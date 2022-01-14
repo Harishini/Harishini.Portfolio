@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Login Page</title>
+<link rel="stylesheet" type="text/css" href="login.css">
+<script src="login.js" ></script>
+</head>
+<body>
+<br><br><br><br>
+<h2>Login Form</h2>
+
+<form action="https://harishini.github.io/Harishini.Portfolio/" >
+ 
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" id="username" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" id="password"  required>
+
+    <button type="submit" onclick="return validate()"><span>Login</span></button>
+   
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#fdfdfd">
+
+    <span class="psw">Forgot <a href="#">password?</a></span>
+    <br><br>
+    <span class="psw">Don't have an account? <a href="signup.html">SignUp</a></span>
+  </div>
+</form>
+
+
+</body>
+</html>
